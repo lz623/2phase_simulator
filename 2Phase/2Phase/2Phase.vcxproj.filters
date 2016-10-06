@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\DiscreteDomain">
+      <UniqueIdentifier>{f4bb431b-371b-46f1-bcbe-eb2844c55316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LoopupTables">
+      <UniqueIdentifier>{746f1f3b-fa49-41f2-8020-b6e411bdd1e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Solvers">
+      <UniqueIdentifier>{4b6db600-6ca5-440b-8e5b-283e373e5309}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DiscreteProblem.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscreteProblem_IMPL.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyCalculator.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="func_table.hpp">
+      <Filter>Header Files\LoopupTables</Filter>
+    </ClInclude>
+    <ClInclude Include="interpolators.hpp">
+      <Filter>Header Files\LoopupTables</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscreteDomain.hpp">
+      <Filter>Header Files\DiscreteDomain</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshBuilder.hpp">
+      <Filter>Header Files\DiscreteDomain</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.hpp">
+      <Filter>Header Files\DiscreteDomain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\2PHASE\src\Solvers\Nonlinear\NewtonSolver.hpp">
+      <Filter>Header Files\Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="CSR_Matrix.hpp">
+      <Filter>Header Files\Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="Intel_Pardiso.hpp">
+      <Filter>Header Files\Solvers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DiscreteProblem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
